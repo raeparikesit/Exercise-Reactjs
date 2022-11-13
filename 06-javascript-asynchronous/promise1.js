@@ -1,6 +1,6 @@
 const  myCountPromise = (param) => {
     return new Promise( (resolve, reject) => {
-     if(param === 2){
+     if(param!==undefined){
        
   setTimeout( () => { 
      resolve (param *2) 
